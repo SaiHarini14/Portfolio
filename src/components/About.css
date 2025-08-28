@@ -1,0 +1,33 @@
+.about-section {
+  background-color: #f5f1e8;
+  color: #3e2c23;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.about-container {
+  background: #fff;
+  padding: 50px;
+  border-radius: 16px;
+  max-width: 800px;
+  text-align: left;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  line-height: 1.8;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #3e2c23;
+}
+
+.about-highlight {
+  color: #a97448;
+  font-weight: bold;
+}

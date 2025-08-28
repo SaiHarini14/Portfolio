@@ -1,0 +1,90 @@
+/* Footer */
+.footer {
+  background-color: #6f4e37;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.contact-btn {
+  background-color: #eae0d5;
+  color: #3e2c23;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
+  background-color: #d6c2a1;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(62, 44, 35, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 30px 40px;
+  max-width: 400px;
+  width: 90%;
+  position: relative;
+  text-align: center;
+  color: #3e2c23;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #6f4e37;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+  color: #6f4e37;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.contact-info a {
+  color: #6f4e37;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+.main-content {
+  padding-bottom: 80px; /* space for footer */
+}
+

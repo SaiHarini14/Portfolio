@@ -1,0 +1,24 @@
+section {
+  height: 100vh;   /* full screen height */
+  width: 100vw;    /* full screen width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+section .box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 800px;
+  text-align: center;
+}
+
+/* Smooth scrolling between sections */
+html {
+  scroll-behavior: smooth;
+}
+
