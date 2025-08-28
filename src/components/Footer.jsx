@@ -29,7 +29,6 @@ export default function Footer() {
               <p>📧 Email: <a href="mailto:saiharini1484@gmail.com">saiharini1484@gmail.com</a></p>
               <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/sai-harini-g" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/sai-harini-g</a></p>
               <p>🐱 GitHub: <a href="https://github.com/SaiHarini14" target="_blank" rel="noopener noreferrer">https://github.com/SaiHarini14</a></p>
-              <p>🌐 Portfolio: <a href="https://yourportfolio.com" target="_blank" rel="noopener noreferrer">yourportfolio.com</a></p>
             </div>
           </div>
         </div>
