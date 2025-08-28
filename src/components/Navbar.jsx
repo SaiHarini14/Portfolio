@@ -12,7 +12,7 @@ export default function Navbar() {
         <li><a href="#experience">Experience</a></li>
         <li><a href="#achievements">Achievements</a></li>
         <li>
-          <a href="/resume.pdf" download className="resume-btn">Resume</a>
+          <a href="/SAI_HARINI G_RESUME.pdf" download className="resume-btn">Resume</a>
         </li>
       </ul>
     </nav>
